@@ -1,5 +1,5 @@
 ---
-title: "한글아 !"
+title: "한글아 써져라 얍!"
 date: 2020-02-19 08:26:28 -0400
 categories: jekyll update
 ---
