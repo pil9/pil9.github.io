@@ -34,14 +34,14 @@ disqus:
   categories: [blog, project] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
-facebook: myfacebook
+facebook: book.pil
 # twitter: mytwitter
 # instagram: myinstagram
 # pinterest: mypinterest
 # linkedin: mylinkedin
 # youtube: myyoutube
 # spotify: myspotify
-github: mygithub
+github: gab3326
 # gitlab: mygitlab
 # lastfm: mylastfm
 # stackoverflow: 7044681/mystackoverflow
@@ -50,7 +50,7 @@ github: mygithub
 # medium: medium
 # vimeo: myvimeo
 # lanyrd: mylanyrd
-email: myemail@gmail.com
+email: j2ongp@gmail.com
 
 authors:
     pil9:
@@ -61,9 +61,9 @@ authors:
         
     jamesfoster:
         name: Pil9
-        bio: A Man who develops software with coffee
+        bio: College students like computers and piano
         external-image: false
-        picture: assets/images/james.jpg
+        picture: assets/images/profile.jpg
         
 
 # do you want a larger site? change the option below
