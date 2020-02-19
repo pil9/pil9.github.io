@@ -5,7 +5,7 @@ date: 2020-02-19
 headerImage: false
 tag:
 - test
-category: blog
+blog:true
 author: pil
 ---
 # POST
