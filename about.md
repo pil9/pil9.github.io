@@ -2,33 +2,46 @@
 title: About
 layout: page
 ---
-![Profile Image](/{{ site.picture }})
+![Profile Image]({% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %})
 
-<p>I am a 23 year old passionate software developer based in Bengaluru, India. I have 
-steadily engaged myself in various roles at my organisation starting from being an 
-individual contributor to leading teams.
-</p>
+# DODUNGTACK
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-<p>
-I as a developer have always been strikingly excited about developing great applications, 
-building engaging products, discussing complex technical problems and simplifying them.
-Starting my journey as a developer from my second year in college, I have rigorously 
-invested time in building applications for and around the android platform and have 
-existed in that ecosystem ever since. My tenure as the President at Association for 
-Computing Machinery (ACM) VIT Student Chapter and as the Technical Project Lead at 
-GDG Vellore exposed me to endless possibilities and innovation that we can achieve 
-using technology.
-</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-<p>I have had the priviledge of contributing, designing and maintaining Android applications, 
-Android SDKs, SDK releases, microservices revolving around central services and have also 
-experienced maintaining databases. Although my primary language has always been Java, I have 
-fair experience writing code in Python and Javascript for various usecases.</p>
+<h2>Skills</h2>
 
-<p>
-I am currently impacting as a Full Stack Developer at Nuclei. (July 2018-Present)
-</p>
+<ul class="skill-list">
+	<li>HTML - Jade - Haml - Erb</li>
+	<li>Responsive (Mobile First)</li>
+	<li>CSS (Stylus, Sass, Less)</li>
+	<li>Css Frameworks (Bootstrap, Foundation)</li>
+	<li>Javascript (Design Patterns, Testes)</li>
+	<li>NodeJS</li>
+	<li>AngularJS - ReactJS</li>
+	<li>Grunt - Gulp - Yeoman</li>
+	<li>Git</li>
+	<li>PHP</li>
+	<li>Python</li>
+	<li>MySQL - MongoDB</li>
+	<li>Scrum and Kanban</li>
+	<li>TDD e Continuous Integration</li>
+</ul>
 
-<p>
-In and around Bengaluru? Let's grab a coffee! 
-</p>
+<h2>Projects</h2>
+
+<ul>
+	<li><a href="https://github.com/">Lorem Lorem</a></li>
+	<li><a href="https://github.com/">Ipsum Dolor</a></li>
+	<li><a href="https://github.com/">Dolor Lorem</a></li>
+</ul>
