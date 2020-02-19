@@ -13,7 +13,7 @@
         {% if site.blog == true %}
             {% if page.title != "Blog" %}
                 <li class="item">
-                    <a class="link" href="/blog">Events</a>
+                    <a class="link" href="/blog">Post</a>
                 </li>
             {% endif %}
         {% endif %}
@@ -21,7 +21,7 @@
         {% if site.projects == true %}
             {% if page.title != "Projects" %}
                 <li class="item">
-                    <a class="link" target="_blank" href="https://github.com/abhinav-adtechs?tab=repositories">Projects</a>
+                    <a class="link" href="{{ site.url }}/projects">Projects</a>
                 </li>
             {% endif %}
         {% endif %}
@@ -34,15 +34,9 @@
             {% endif %}
         {% endif %}
 
-        {% if site.resume == true %}
-            <li class="item">
-                <a class="link" target="_blank" href="/assets/files/AbhinavDasJan2019.pdf">Resume</a>
-            </li>
-        {% endif %}
+        
 
-        <li class="item">
-            <a class="link" target="_blank" href="https://speakerdeck.com/jordiie09">Presentations </a>
-        </li>
+       
 
     </ul>
 </nav>
