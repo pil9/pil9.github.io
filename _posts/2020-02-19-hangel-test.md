@@ -8,4 +8,4 @@ tag:
 blog:true
 author: pil
 ---
-# 
+# 한글 지원을 안해?
