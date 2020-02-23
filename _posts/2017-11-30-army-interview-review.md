@@ -2,8 +2,8 @@
 title: "공군 정보보호병 면접 후기"
 layout: post
 date: 2017-11-30 10:54
-image: /assets/images/markdown.jpg
-headerImage: false
+image: /assets/images/mark-img01.png
+headerImage: true
 tag:
 - army
 - airforce
