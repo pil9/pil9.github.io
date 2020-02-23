@@ -6,5 +6,6 @@ category: blog
 tag:
 - test
 author: pil9
+hidden: true
 ---
 # 한글 지원을 안해?
