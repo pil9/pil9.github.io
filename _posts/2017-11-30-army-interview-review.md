@@ -8,7 +8,6 @@ tag:
 - army
 - airforce
 - interview review
-star: true
 category: blog
 author: pil9
 description: Markdown summary with different options
@@ -17,7 +16,8 @@ description: Markdown summary with different options
 
 2018년 1,2월 입대 전형에 응시했고 1차 전형에 합격하여 2차 전형으로 면접을 봤습니다.
 
-면접을 준비하는데 있어서 다른 분들의 면접 후기들을 통해 많은 도움이 되었기에 저 또한 공군 정보보호병을 준비하시는 분들에게 도움이 되고자 후기를 남깁니다.
+면접을 준비하는데 있어서 다른 분들의 면접 후기들을 통해 많은 도움이 되었기에
+저 또한 공군 정보보호병을 준비하시는 분들에게 도움이 되고자 후기를 남깁니다.
 
 
 ++최종합격해서 1월에 입대합니다.
@@ -46,6 +46,7 @@ description: Markdown summary with different options
 면접시간이 되면 인상 좋으신 소령님께서 지원자들 신분 확인을 한 뒤 가나다순으로 **3명씩** 면접실로 안내해 주십니다. 면접관 분들은 총 **4분**이셨구요. 상황에 따라서 4:3 또는 4:2로 면접이 진행되는 것 같습니다. 면접시간은 약 **15~20분** 정도 진행됩니다.
 
 
+---
 
 ### 면접 질문
 
