@@ -49,7 +49,8 @@ argv 배열에는 {"Test.exe", "Hello", "123", "Hello world"} 형식으로 저�
 
 입력받은 옵션의 개수값이나 문자열들은 아래 코드와 같이 활용이 가능합니다.
 
-```
+{% highlight c %}
+
 #include <stdio.h>
 
 int main(int argc, char* argv[]) {
@@ -68,7 +69,7 @@ int main(int argc, char* argv[]) {
 		}
 	}
 }
-```
+{% endhighlight %}
 
 [##_Image|kage@bUP2NM/btqBphF10BK/n3heQW1dkU2JTK3CjcYom0/img.png|alignCenter|data-filename="캡처1.PNG" data-origin-width="594" data-origin-height="165"|실행 결과||_##]
 
