@@ -41,8 +41,8 @@ shutdown /help
 
 > char\* : C에는 배열 파라미터 같은 개념이 없기 때문에 포인터로 정의됨
 
-
-![argc]({{site.url}}/images/argv.png){class="center"}
+<br>
+![argc]({{site.url}}/images/argv.png){: class="center"}
 <figcaption class="caption">""으로 묶어주면 띄어쓰기를 포함한다</figcaption>
 
 
