@@ -25,8 +25,6 @@ author: pil9
 
 근데 공식사이트 모집요강에는 통합선발이라고 나와있는데 자격요건 자체가 다른데 어떤 부분이 통합선발이라는 것인지는 잘 모르겠다.
 
-​![img][1]
+​![img]({{site.url}}/images/cyber.png){: class="center"}
 
 
-
-[1]:({{site.url}}/images/cyber.png){: class="center"}
