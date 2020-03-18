@@ -20,7 +20,7 @@ argc = arguments(인수) count
 
 argv = arguments vector
 
-```
+```C
 int main(int argc, char *argv[])
 ```
 
@@ -30,7 +30,7 @@ C코드 예제들을 보면 메인 함수(int main) 파라미터 값으로 int a
 
 즉 파일에 옵션을 부여하여 실행한다는 개념인데 명령어로 예시를 들면 **/와 같이 오는 문자열**로 볼 수 있습니다.
 
-```
+```python
 ipconfig /all
 shutdown /help
 ```
@@ -77,11 +77,14 @@ argv 배열에는 {"Test.exe", "Hello", "123", "Hello world"} 형식으로 저�
     <td class="tg-jzjz">"Hello world"</td>
   </tr>
 </table>
-
+  
+<br>
 입력받은 옵션의 개수값이나 문자열들은 아래 코드와 같이 활용이 가능합니다.
 
-{% highlight c %}
+<!--{% highlight c %}
+{% endhighlight %}-->
 
+```c
 #include <stdio.h>
 
 int main(int argc, char* argv[]) {
@@ -100,8 +103,11 @@ int main(int argc, char* argv[]) {
 		}
 	}
 }
-{% endhighlight %}
+```
 
-[##_Image|kage@bUP2NM/btqBphF10BK/n3heQW1dkU2JTK3CjcYom0/img.png|alignCenter|data-filename="캡처1.PNG" data-origin-width="594" data-origin-height="165"|실행 결과||_##]
+<br>
+![argc]({{site.url}}/images/argv_result.png){: class="center"}
+<figcaption class="caption">실행 결과</figcaption>
+<br>
 
 주로 C코드에서만 사용되나 파이썬에서도 비슷한 형식으로 옵션값을 받습니다.
