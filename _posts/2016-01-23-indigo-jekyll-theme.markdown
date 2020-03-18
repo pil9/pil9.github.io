@@ -1,7 +1,7 @@
 ---
 title: "🎮 PLAYERUNKNOWN'S BATTLEGROUNDS Vulnerability analysis"
 layout: post
-date: 2017
+date: 2017-
 tag: project
 image: https://user-images.githubusercontent.com/61215593/76932262-d834b880-692d-11ea-803d-e6a6b1c74a88.png
 headerImage: true
@@ -15,7 +15,7 @@ externalLink: false
 
 ![Screenshot]({{site.url}}/images/pubg.png){: class="center"}
 
-Example of project - Indigo Minimalist Jekyll Template - [Demo](http://sergiokopplin.github.io/indigo/). This is a simple and minimalist template for Jekyll for those who likes to eat noodles.
+PUBG ANALYSIS project - Indigo Minimalist Jekyll Template - [Demo](http://sergiokopplin.github.io/indigo/). This is a simple and minimalist template for Jekyll for those who likes to eat noodles.
 
 ---
 
