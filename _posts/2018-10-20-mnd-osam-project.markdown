@@ -16,7 +16,7 @@ externalLink: false
 
 MND ASSISTANT PROJECT - Projects conducted from October 21 to 25, 2018
 
-Supported by [MND, NIPA](https://www.mnd.go.kr/), Conduct a competition at the camp
+Supported by [MND](https://www.mnd.go.kr/), [NIPA](https://www.nipa.kr/), Conduct a competition at the camp
 
 
 ---
