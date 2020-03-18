@@ -1,7 +1,7 @@
 ---
 title: "🎮 PLAYERUNKNOWN'S BATTLEGROUNDS Vulnerability analysis"
 layout: post
-date: 2016-01-23
+date: 2017-10-01
 tag: project
 image: https://user-images.githubusercontent.com/61215593/76933975-b2111780-6931-11ea-8359-7f78a741370d.png
 headerImage: true
@@ -28,7 +28,7 @@ What has inside?
 - Client
 - Server side
 - Game Engine
-- etc.. [Analyzed but not include](https://1boon.kakao.com/thisisgame/news000663)
+- Etc.. [Analyzed but not include](https://1boon.kakao.com/thisisgame/news000663)
 
 ---
 
