@@ -20,7 +20,7 @@ argc = arguments(인수) count
 
 argv = arguments vector
 
-```C
+```c
 int main(int argc, char *argv[])
 ```
 
