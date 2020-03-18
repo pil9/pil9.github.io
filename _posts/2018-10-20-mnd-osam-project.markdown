@@ -1,5 +1,5 @@
 ---
-title: "🤖 Mnd Assistant"
+title: "🤖 MND Assistant"
 layout: post
 date: 2018-10-20
 tag: project
