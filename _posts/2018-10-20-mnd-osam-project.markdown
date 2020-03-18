@@ -1,7 +1,7 @@
 ---
 title: "🤖 Mnd Assistant"
 layout: post
-date: 2018-10-01
+date: 2018-10-20
 tag: project
 image: https://user-images.githubusercontent.com/61215593/76935264-277de780-6934-11ea-9c2d-61148d2b7d01.png
 headerImage: true
