@@ -12,7 +12,9 @@ tag:
 category: blog
 author: pil9
 ---
+ 
 
+ 
 
 argc = arguments(인수) count
 
@@ -38,6 +40,12 @@ shutdown /help
 **char \*argv** = 프로그램 실행 시 입력한 옵션의 가변적인 개수의 **문자열**들이 저장됩니다.
 
 > char\* : C에는 배열 파라미터 같은 개념이 없기 때문에 포인터로 정의됨
+
+
+
+![argv](./img/argv.png){: class="center"}
+<figcaption class="caption">""으로 묶어주면 띄어쓰기를 포함한다</figcaption>
+
 
 [##_Image|kage@drUOWX/btqBpPbm5ku/RiL8WR23IyoO60rWnS8jHk/img.png|alignCenter|data-filename="제목 없음.png" data-origin-width="444" data-origin-height="144"|""으로 묶어주면 띄어쓰기를 포함한다||_##]
 
