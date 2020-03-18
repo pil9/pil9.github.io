@@ -29,4 +29,4 @@ author: pil9
 
 
 
-[1]:https://d2ufj6gm1gtdrc.cloudfront.net/2017/04/16/23/46/1379f1ea0e65bd50539e2416b1168264.png?w=1200&q=95
+[1]:({{site.url}}/images/cyber.png){: class="center"}
