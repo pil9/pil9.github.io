@@ -43,7 +43,7 @@ shutdown /help
 
 
 
-![argv](../img/argv.png){: class="bigger-image"}
+![argv](/_posts\img\argv.png){: class="bigger-image"}
 <figcaption class="caption">""으로 묶어주면 띄어쓰기를 포함한다</figcaption>
 
 
