@@ -44,13 +44,46 @@ shutdown /help
 <br>
 ![argc]({{site.url}}/images/argv.png){: class="center"}
 <figcaption class="caption">""으로 묶어주면 띄어쓰기를 포함한다</figcaption>
+<br>
 
 
 위와 같이 실행 파일 옵션을 입력해준 경우 argc에는 파일 이름(Test.exe)까지 카운트된 정수 4가 저장되며.
 
 argv 배열에는 {"Test.exe", "Hello", "123", "Hello world"} 형식으로 저장됩니다.
 
-<table style="letter-spacing: 0px; border-collapse: collapse; width: 30%; height: 100px; border-radius: 3px; font-family: Menlo, Consolas, Monaco, monospace;" border="1"><tbody><tr style="height: 20px;"><td style="width: 50%; text-align: center; height: 20px;" colspan="2">argc : 4</td></tr><tr style="height: 20px;"><td style="width: 50%; height: 20px; text-align: center;">argv[0]</td><td style="width: 50%; height: 20px; text-align: center;">"Test.exe"</td></tr><tr style="height: 20px;"><td style="width: 50%; height: 20px; text-align: center;">argv[1]</td><td style="width: 50%; height: 20px; text-align: center;">"Hello"</td></tr><tr style="height: 20px;"><td style="width: 50%; height: 20px; text-align: center;">argv[2]</td><td style="width: 50%; height: 20px; text-align: center;">"123"</td></tr><tr style="height: 20px;"><td style="width: 50%; height: 20px; text-align: center;">argv[3]</td><td style="width: 50%; height: 20px; text-align: center;">"Hello world"</td></tr></tbody></table>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;border-color:#ccc;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#fff;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#f0f0f0;}
+.tg .tg-5k8v{font-family:Verdana, Geneva, sans-serif !important;;text-align:center;vertical-align:middle}
+.tg .tg-jzjz{font-family:Verdana, Geneva, sans-serif !important;;text-align:center;vertical-align:top}
+</style>
+<table class="tg; center;" style="undefined;table-layout: fixed; width: 210px">
+<colgroup>
+<col style="width: 94px">
+<col style="width: 116px">
+</colgroup>
+  <tr>
+    <th class="tg-5k8v" colspan="2">argc : 4</th>
+  </tr>
+  <tr>
+    <td class="tg-5k8v">argv[0]</td>
+    <td class="tg-5k8v">"Test.exe"</td>
+  </tr>
+  <tr>
+    <td class="tg-jzjz">argv[1]</td>
+    <td class="tg-jzjz">"Hello"</td>
+  </tr>
+  <tr>
+    <td class="tg-jzjz">argv[2]</td>
+    <td class="tg-jzjz">"123"</td>
+  </tr>
+  <tr>
+    <td class="tg-jzjz">argv[3]</td>
+    <td class="tg-jzjz">"Hello world"</td>
+  </tr>
+</table>
+
 
 입력받은 옵션의 개수값이나 문자열들은 아래 코드와 같이 활용이 가능합니다.
 
