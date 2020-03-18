@@ -52,7 +52,7 @@ shutdown /help
 argv 배열에는 {"Test.exe", "Hello", "123", "Hello world"} 형식으로 저장됩니다.
 
 
-<table class="tg" style="undefined;table-layout: fixed; width: 210px">
+<table class="tg center" style="undefined;table-layout: fixed; width: 210px;">
 <colgroup>
 <col style="width: 94px">
 <col style="width: 116px">
@@ -77,8 +77,6 @@ argv 배열에는 {"Test.exe", "Hello", "123", "Hello world"} 형식으로 저�
     <td class="tg-jzjz">"Hello world"</td>
   </tr>
 </table>
-
-<table style="letter-spacing: 0px; border-collapse: collapse; width: 30%; height: 100px; border-radius: 3px; font-family: Menlo, Consolas, Monaco, monospace;" border="1"><tbody><tr style="height: 20px;"><td style="width: 50%; text-align: center; height: 20px;" colspan="2">argc : 4</td></tr><tr style="height: 20px;"><td style="width: 50%; height: 20px; text-align: center;">argv[0]</td><td style="width: 50%; height: 20px; text-align: center;">"Test.exe"</td></tr><tr style="height: 20px;"><td style="width: 50%; height: 20px; text-align: center;">argv[1]</td><td style="width: 50%; height: 20px; text-align: center;">"Hello"</td></tr><tr style="height: 20px;"><td style="width: 50%; height: 20px; text-align: center;">argv[2]</td><td style="width: 50%; height: 20px; text-align: center;">"123"</td></tr><tr style="height: 20px;"><td style="width: 50%; height: 20px; text-align: center;">argv[3]</td><td style="width: 50%; height: 20px; text-align: center;">"Hello world"</td></tr></tbody></table>
 
 입력받은 옵션의 개수값이나 문자열들은 아래 코드와 같이 활용이 가능합니다.
 
