@@ -1,19 +1,19 @@
 ---
-title: ":ramen: Indigo, minimalist jekyll theme"
+title: "🎮 PLAYERUNKNOWN'S BATTLEGROUNDS Vulnerability analysis"
 layout: post
-date: 2016-01-23 22:10
-tag: jekyll
-image: https://koppl.in/indigo/assets/images/jekyll-logo-light-solid.png
+date: 2017
+tag: project
+image: https://user-images.githubusercontent.com/61215593/76932262-d834b880-692d-11ea-803d-e6a6b1c74a88.png
 headerImage: true
 projects: true
 hidden: true # don't count this post in blog pagination
 description: "This is a simple and minimalist template for Jekyll for those who likes to eat noodles."
 category: project
-author: johndoe
+author: pil9
 externalLink: false
 ---
 
-![Screenshot](https://raw.githubusercontent.com/sergiokopplin/indigo/gh-pages/assets/screen-shot.png)
+![Screenshot]({{site.url}}/images/pubg.png){: class="center"}
 
 Example of project - Indigo Minimalist Jekyll Template - [Demo](http://sergiokopplin.github.io/indigo/). This is a simple and minimalist template for Jekyll for those who likes to eat noodles.
 
@@ -33,3 +33,4 @@ What has inside?
 
 [Check it out](http://sergiokopplin.github.io/indigo/) here.
 If you need some help, just [tell me](http://github.com/sergiokopplin/indigo/issues).
+
