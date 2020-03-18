@@ -3,7 +3,7 @@ title: "🎮 PLAYERUNKNOWN'S BATTLEGROUNDS Vulnerability analysis"
 layout: post
 date: 2016-01-23
 tag: project
-image: https://user-images.githubusercontent.com/61215593/76932262-d834b880-692d-11ea-803d-e6a6b1c74a88.png
+image: https://user-images.githubusercontent.com/61215593/76933682-0667c780-6931-11ea-8182-98cd53009488.png
 headerImage: true
 projects: true
 hidden: true # don't count this post in blog pagination
@@ -15,19 +15,20 @@ externalLink: false
 
 ![Screenshot]({{site.url}}/images/pubg.png){: class="center"}
 
-PUBG ANALYSIS project - Indigo Minimalist Jekyll Template - [Demo](http://sergiokopplin.github.io/indigo/). This is a simple and minimalist template for Jekyll for those who likes to eat noodles.
+PUBG ANALYSIS PROJECT - Projects conducted from October 2017 to January 2018
+Supported by Blue Hole, it was conducted in a black box testing environment.
+
 
 ---
+![Screenshot]({{site.url}}/images/pubg_1.png){: class="center"}
 
 What has inside?
 
-- Gulp
-- BrowserSync
-- Stylus
-- SVG
-- Travis
-- No JS
-- [98/100](https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Fsergiokopplin.github.io%2Findigo%2F)
+- Game Guard
+- Client
+- Server side
+- Game Engine
+- etc.. [Analyzed but not include](https://1boon.kakao.com/thisisgame/news000663)
 
 ---
 
