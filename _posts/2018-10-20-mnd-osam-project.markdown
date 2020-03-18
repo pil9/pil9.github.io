@@ -20,7 +20,7 @@ Supported by [MND, NIPA](https://www.mnd.go.kr/), Conduct a competition at the c
 
 
 ---
-![Screenshot](https://raw.githubusercontent.com/osam2019/web_mnd_assistant_team/master/public/readme/dashboard.png){: class="center"}
+![Screenshot]({{site.url}}/images/dashboard.png){: class="center"}
 
 
 ![Screenshot]({{site.url}}/images/mnd_1.png){: class="center"}
