@@ -42,13 +42,9 @@ shutdown /help
 > char\* : C에는 배열 파라미터 같은 개념이 없기 때문에 포인터로 정의됨
 
 
-![argc]({{site.url}}/images/argv.png)
-
-![argv](/_posts\img\argv.png){: class="bigger-image"}
+![argc]({{site.url}}/images/argv.png){class="center"}
 <figcaption class="caption">""으로 묶어주면 띄어쓰기를 포함한다</figcaption>
 
-
-[##_Image|kage@drUOWX/btqBpPbm5ku/RiL8WR23IyoO60rWnS8jHk/img.png|alignCenter|data-filename="제목 없음.png" data-origin-width="444" data-origin-height="144"|""으로 묶어주면 띄어쓰기를 포함한다||_##]
 
 위와 같이 실행 파일 옵션을 입력해준 경우 argc에는 파일 이름(Test.exe)까지 카운트된 정수 4가 저장되며.
 
