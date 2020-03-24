@@ -49,7 +49,7 @@ shutdown /help
 
 위와 같이 실행 파일 옵션을 입력해준 경우 argc에는 파일 이름(Test.exe)까지 카운트된 정수 4가 저장되며.
 
-argv 배열에는 {"Test.exe", "Hello", "123", "Hello world"} 형식으로 저장됩니다.
+argv 포인터가 가리키는 배열에는 {"Test.exe", "Hello", "123", "Hello world"} 형식으로 저장됩니다.
 
 
 <table class="tg center" style="undefined;table-layout: fixed; width: 210px;">
