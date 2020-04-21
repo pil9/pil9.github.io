@@ -24,6 +24,10 @@ layout: compress
     <style>
     {% capture scss_sheet %}{% include style.scss %}{% endcapture %}
     {{ scss_sheet | scssify }}
+
+    code[class*="language-"], pre[class*="language-"] {
+        font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', 'Spoqa Han Sans', monospace;
+    }
     </style>
 
 </head>
