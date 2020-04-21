@@ -20,9 +20,11 @@ argc = arguments(인수) count
 
 argv = arguments vector
 
-<pre><code class="language-clike">
+<pre>
+<code class="language-c">
 int main(int argc, char *argv[])
-</code><pre>
+</code>
+<pre>
 
 C코드 예제들을 보면 메인 함수(int main) 파라미터 값으로 int argc, char\* argv\[\] 를 많이 볼 수 있습니다.
 
