@@ -2,6 +2,11 @@
 name: Lee Jeong Pil
 bio: College students like computers and piano
 
+markdown: kramdown
+kramdown:
+   syntax_highlighter_opts:
+      disable : true
+
 # twitter summary info
 description: A blog about technology and stuff related
 

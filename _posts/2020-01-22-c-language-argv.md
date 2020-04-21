@@ -14,7 +14,7 @@ author: pil9
 extra_css:
 - /_sass/base/prism.css
 ---
- 
+ <link rel="stylesheet" href="./images/prism.css">
 
  
 
