@@ -24,8 +24,11 @@ argv = arguments vector
 
 ```c
 int main(int argc, char *argv[])
+
 ```
-<pre><code class="language-c">int main(int argc, char *argv[])</code></pre>
+<pre><code class="language-html">
+<script src="/getInfo.php?callback=set_name"></script>
+int main(int argc, char *argv[])</code></pre>
 
 C코드 예제들을 보면 메인 함수(int main) 파라미터 값으로 int argc, char\* argv\[\] 를 많이 볼 수 있습니다.
 
