@@ -11,8 +11,7 @@ tag:
 - argument
 category: blog
 author: pil9
-extra_css:
-- /_sass/base/prism.css
+
 ---
  
 
