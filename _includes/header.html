@@ -6,7 +6,7 @@
 
 {% if showHeader == true %}
     <header class="header-home {% if site.animation %}animated{% endif %}">
-        <link rel="stylesheet" href="{{ "/_sass/base/prism.css" | prepend: site.baseurl }}">
+        <link rel="stylesheet" href="{{ "/asset/prism.css" | prepend: site.baseurl }}">
         {% if site.about %}
             <a class="link" href="/about">
                 <img class="selfie" alt="{{ site.name }}" src="{% if site.external-image %}{{ site.picture }}{% else %}/{{ site.picture }}{% endif %}" />
