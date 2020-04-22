@@ -14,8 +14,7 @@ author: pil9
 
 ---
  
-![problem]({{site.url}}/images/blind_p.png){: class="center"}
-<figcaption class="caption">Blind sql injection 문제</figcaption>  
+![problem]({{site.url}}/images/blind_p.png){: class="center"}<figcaption class="caption">Blind sql injection 문제</figcaption>  
 <br>
 pins DB 테이블에서 cc_number가 '1111222233334444'인 pin 값을 찾는 문제입니다.
 
