@@ -1,5 +1,5 @@
 ---
-title: "Webgoat7.1 Blind Numberic SQL Injection"
+title: "Webgoat7.1 Blind Numeric SQL Injection"
 layout: post
 date: 2020-04-22
 image: /assets/images/mark-img01.png
