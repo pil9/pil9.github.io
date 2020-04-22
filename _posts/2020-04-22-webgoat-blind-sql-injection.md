@@ -20,7 +20,7 @@ author: pil9
 pins DB 테이블에서 cc_number가 '1111222233334444'인 pin 값을 찾는 문제입니다.
 
 문제에서 사전에 주어진 정보는 테이블명(pins), 필드명(cc_number), 101 입니다.
-<BR>
+<br>
 ![problem]({{site.url}}/images/p2.png){: class="center"}
 <figcaption class="caption">유효 pin값은 101부터</figcaption>
 <br>
