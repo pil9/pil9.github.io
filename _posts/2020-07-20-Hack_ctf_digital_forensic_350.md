@@ -14,20 +14,20 @@ author: pil9
 ---
  
 ![problem]({{site.url}}/images/Hack1_problem.png){: class="center"}
-<figcaption class="caption">문제</figcaption>  
+<figcaption class="caption">Fig1.문제</figcaption>  
 <br>
 Forensics 350점 짜리 문제고 비트맵 이미지 파일이 주어집니다.
 문제에서 L,S,B 글자만 대문자인것을 보아 LSB 문제로 유추할 수 있습니다.
 
 <br>
 ![problem]({{site.url}}/images/Hack1_problem_1.png){: class="center"}
-<figcaption class="caption">비트밀당녀</figcaption>  
+<figcaption class="caption">Fig2.비트밀당녀</figcaption>  
 <br>
 파일을 열어보면 다음과 같습니다.(누가봐도 비트 관련 문제)
 
 <br>
 ![problem]({{site.url}}/images/Hack2_hxd.png){: class="center"}
-<figcaption class="caption">HxD</figcaption>
+<figcaption class="caption">Fig3.HxD</figcaption>
 <br>
 파일의 16진수 값을 보면 비트맵 파일 헤더, DIB 헤더 값에 특이점이 없습니다.(최상위 54Byte)
 <br>
@@ -41,14 +41,14 @@ Forensics 350점 짜리 문제고 비트맵 이미지 파일이 주어집니다.
 
 <br>
 ![problem]({{site.url}}/images/Hack4_verbos.png){: class="center"}
-<figcaption class="caption">b1,lsb,bY</figcaption>
+<figcaption class="caption">Fig4.b1,lsb,bY</figcaption>
 <pre><code class = "language-c">zsteg drop_the_bit.bmp b1,lsb,bY -v
 </code></pre>
 offset 기준으로 ASCII값을 확인하기 위해 -v(verbos)옵션을 사용하여 출력하면 전체 값을 확인할 수 있습니다.
 
 <br>
 ![problem]({{site.url}}/images/Hack5_search.png){: class="center"}
-<figcaption class="caption">Unicode "충"</figcaption>
+<figcaption class="caption">Fig5.Unicode "충"</figcaption>
 <br>
 
 플래그 포맷 내에 0x가 붙어있는 16진수 값이 보이므로 구글에 검색해보니 Unicode 값임을 확인할 수 있습니다.
@@ -81,6 +81,6 @@ for i in data:
 
 <br>
 ![problem]({{site.url}}/images/Hack8_result.png){: class="center"}
-<figcaption class="caption">Result</figcaption>
+<figcaption class="caption">Fig6.Result</figcaption>
 <br>
 
