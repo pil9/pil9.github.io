@@ -60,9 +60,6 @@ offset 기준으로 ASCII값을 확인하기 위해 -v(verbos)옵션을 사용�
 2byte씩 끊어서 정상적으로 Convert되는 값들을 확인해 보면 플래그를 획득할 수 있습니다.
 
 <br>
-![problem]({{site.url}}/images/Hack7_exploit.png){: class="center"}
-<figcaption class="caption">exploit</figcaption>
-<br>
 
 <pre><code class = "language-python">
 '''
