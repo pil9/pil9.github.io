@@ -38,13 +38,13 @@ Forensics 350점 짜리 문제고 비트맵 이미지 파일이 주어집니다.
 <figcaption class="caption">Fig4.HackCTF{0U]</figcaption>
 <br>
 다른 방법으로 최하위 비트(lsb)에 숨겨져있는 텍스트를 확인하기 위해서 [zsteg](https://github.com/zed-0xff/zsteg)를 사용하면 Flag 포맷관련 문자열이 있음을 확인할 수 있습니다.
-<br>
 
-![problem]({{site.url}}/images/Hack4_verbos.png){: class="center"}
-<figcaption class="caption">Fig5.b1,lsb,bY</figcaption>
 <br>
 <pre><code class = "language-c">zsteg drop_the_bit.bmp b1,lsb,bY -v
 </code></pre>
+![problem]({{site.url}}/images/Hack4_verbos.png){: class="center"}
+<figcaption class="caption">Fig5.b1,lsb,bY</figcaption>
+<br>
 offset 기준으로 ASCII값을 확인하기 위해 -v(verbos)옵션을 사용하여 출력하면 전체 값을 확인할 수 있습니다.
 
 <br>
