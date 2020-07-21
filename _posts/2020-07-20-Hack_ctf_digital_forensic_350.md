@@ -35,26 +35,28 @@ Forensics 350점 짜리 문제고 비트맵 이미지 파일이 주어집니다.
 
 <br>
 ![problem]({{site.url}}/images/Hack3_zsteg.png){: class="center"}
+<figcaption class="caption">Fig4.HackCTF{0U]</figcaption>
 <br>
 다른 방법으로 최하위 비트(lsb)에 숨겨져있는 텍스트를 확인하기 위해서 [zsteg](https://github.com/zed-0xff/zsteg)를 사용하면 Flag 포맷관련 문자열이 있음을 확인할 수 있습니다.
 <br>
 
-<br>
 ![problem]({{site.url}}/images/Hack4_verbos.png){: class="center"}
-<figcaption class="caption">Fig4.b1,lsb,bY</figcaption>
+<figcaption class="caption">Fig5.b1,lsb,bY</figcaption>
+<br>
 <pre><code class = "language-c">zsteg drop_the_bit.bmp b1,lsb,bY -v
 </code></pre>
 offset 기준으로 ASCII값을 확인하기 위해 -v(verbos)옵션을 사용하여 출력하면 전체 값을 확인할 수 있습니다.
 
 <br>
 ![problem]({{site.url}}/images/Hack5_search.png){: class="center"}
-<figcaption class="caption">Fig5.Unicode "충"</figcaption>
+<figcaption class="caption">Fig6.Unicode "충"</figcaption>
 <br>
 
 플래그 포맷 내에 0x가 붙어있는 16진수 값이 보이므로 구글에 검색해보니 Unicode 값임을 확인할 수 있습니다.
 
 <br>
 ![problem]({{site.url}}/images/Hack6_unicode.png){: class="center"}
+<figcaption class="caption">Fig7.Unicode Convert</figcaption>
 <br>
 2byte씩 끊어서 정상적으로 Convert되는 값들을 확인해 보면 플래그를 획득할 수 있습니다.
 
@@ -81,6 +83,6 @@ for i in data:
 
 <br>
 ![problem]({{site.url}}/images/Hack8_result.png){: class="center"}
-<figcaption class="caption">Fig6.Result</figcaption>
+<figcaption class="caption">Fig8.Result</figcaption>
 <br>
 
