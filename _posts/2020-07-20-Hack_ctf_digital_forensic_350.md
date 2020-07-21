@@ -27,6 +27,8 @@ Forensics 350점 짜리 문제고 비트맵 이미지 파일이 주어집니다.
 <figcaption class="caption">HxD</figcaption>
 <br>
 파일의 16진수 값을 보면 비트맵 파일 헤더, DIB 헤더 값에 특이점이 없습니다.(54Byte)
+<br>
+[bitmap 파일 구조]{https://dojang.io/mod/page/view.php?id=702}
 
 <br>
 ![problem]({{site.url}}/images/Hack3_zsteg.png){: class="center"}
