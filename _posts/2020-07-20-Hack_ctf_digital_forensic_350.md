@@ -42,7 +42,7 @@ Forensics 350점 짜리 문제고 비트맵 이미지 파일이 주어집니다.
 <br>
 ![problem]({{site.url}}/images/Hack4_verbos.png){: class="center"}
 <figcaption class="caption">b1,lsb,bY</figcaption>
-<pre><code class = "language-c">zsteg file.bmp b,lsb,bY -v
+<pre><code class = "language-c">zsteg drop_the_bit.bmp b1,lsb,bY -v
 </code></pre>
 offset 기준으로 ASCII값을 확인하기 위해 -v(verbos)옵션을 사용하여 출력하면 전체 값을 확인할 수 있습니다.
 
