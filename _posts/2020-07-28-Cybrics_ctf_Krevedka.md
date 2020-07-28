@@ -23,7 +23,7 @@ author: pil9
 ![problem]({{site.url}}/images/cybrics/2.PNG){: class="center"}
 <figcaption class="caption">Fig2.selected_packets.pcapng</figcaption>  
 <br>
-첨부된 약 300MB 크기의 패킷 파일을 열어보면 다음과 같고 110만개의 패킷이 저장되어 있습니다.
+첨부된 약 300MB 크기의 패킷 파일을 열어보면 다음과 같고 약 110만개의 패킷이 저장되어 있습니다.
 
 <br>
 ![problem]({{site.url}}/images/cybrics/3.PNG){: class="center"}
@@ -43,7 +43,7 @@ author: pil9
 <br>
 'caleches' 문자열 검색을 통해 나머지 패킷들도 확인해보면 HTML URL Encode 필드의 password 값에 <b>"" or 1=1 =="</b> 값이 들어가있는 것을 보아 SQL injection 공격이 이루어진 것을 확인할 수 있습니다.
 
-해당 패킷의 TCP Stream 데이터를 통해 공격자의 요청임을 확인할 수 있습니다.
+해당 패킷의 TCP Stream 데이터를 통해 공격자의 요청임을 유추할 수 있습니다.
 
 <br>
 <pre><code class = "language-python">
@@ -63,7 +63,7 @@ Content-Type: application/x-www-form-urlencoded
 
 <br>
 ![problem]({{site.url}}/images/cybrics/6.PNG){: class="center"}
-<figcaption class="caption">Fig7.Unicode Convert</figcaption>
+<figcaption class="caption">Fig6.User-Agent</figcaption>
 <br>
 사이트 로그인을 위한 POST 요청마다 TCP 연결과정이 이루어지므로 세션정보를 제외하고 사용자 에이전트 값이 일치하는 패킷을 검색해보면 'caleches' 로그인 패킷 이외의 POST 요청 결과값이 1개 나오는 것을 확인할 수 있습니다. 
 
@@ -72,7 +72,7 @@ Content-Type: application/x-www-form-urlencoded
 
 <br>
 ![problem]({{site.url}}/images/cybrics/7.PNG){: class="center"}
-<figcaption class="caption">Fig8.Result</figcaption>
+<figcaption class="caption">Fig7.Result</figcaption>
 <br>
 검색된 패킷의 Form item: "login" = "micropetalous" 값이 플래그로 인증되는 것을 확인할 수 있습니다.
 <br>
