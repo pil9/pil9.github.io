@@ -62,13 +62,11 @@ Content-Length: 39
 Content-Type: application/x-www-form-urlencoded
 </code></pre>
 <br>
-
----
 하지만 패킷 내 POST 요청이 너무 많으므로 공격자가 사용한 User 로그인 정보를 찾기 위해서 Fig5 패킷 요청과 동일한 세션 또는 사용자 에이전트값이 일치하는 패킷을 찾아야 합니다.
 
 ---
 <br>
-![problem]({{site.url}}/images/cybrics/6.PNG){: class="center"}{border="20"}
+![problem]({{site.url}}/images/cybrics/6.PNG){: class="center"}
 <figcaption class="caption">Fig6.User-Agent</figcaption>
 <br>
 사이트 로그인을 위한 POST 요청마다 TCP 연결과정이 이루어지므로 세션정보를 제외하고 사용자 에이전트 값이 일치하는 패킷을 검색해보면 'caleches' 로그인 패킷 이외의 POST 요청 결과값이 1개 나오는 것을 확인할 수 있습니다. 
