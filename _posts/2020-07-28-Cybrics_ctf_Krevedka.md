@@ -16,7 +16,7 @@ author: pil9
 ![problem]({{site.url}}/images/cybrics/1.PNG){: class="center"}
 <figcaption class="caption">Fig1.문제</figcaption>  
 <br>
-풀이당시 Forensics 250점 짜리 문제고 pcaPNG 확장자의 패킷 파일이 주어집니다.  
+문제 오픈당시 Forensics 250점 짜리 문제고 pcapng 확장자의 패킷 파일이 주어집니다.  
 문제를 해석해보면 'caleches' 유저를 해킹한 사람의 Login 정보를 찾아야 합니다 .
 
 <br>
