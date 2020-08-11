@@ -42,7 +42,11 @@ author: pil9
 또한 프로세스 별 커맨드라인 정보를 확인하였으나 악성 커맨드가 포함된 프로세스는 존재하지 않았습니다.(cmdline, cmdscan)
 
 ---
-
+<table class="tg center" style="undefined;table-layout: fixed; width: 210px;">
+<colgroup>
+<col style="width: 94px">
+<col style="width: 116px">
+</colgroup>
 <style type="text/css">
 .tg  {border-collapse:collapse;border-color:#aaa;border-spacing:0;}
 .tg td{background-color:#fff;border-color:#aaa;border-style:solid;border-width:1px;color:#333;
