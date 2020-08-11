@@ -53,7 +53,7 @@ author: pil9
 .tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
 .tg .tg-7btt{border-color:inherit;font-weight:bold;text-align:center;vertical-align:top}
 </style>
-<table class="tg center" style="undefined;table-layout: fixed; width: 210px;">
+<table class="tg center" style="undefined;table-layout: fixed;">
 <thead>
   <tr>
     <th class="tg-0pky"></th>
