@@ -49,23 +49,25 @@ author: pil9
   font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
 .tg th{background-color:#f38630;border-color:#aaa;border-style:solid;border-width:1px;color:#fff;
   font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
 .tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+.tg .tg-7btt{border-color:inherit;font-weight:bold;text-align:center;vertical-align:top}
 </style>
 <table class="tg">
 <thead>
   <tr>
     <th class="tg-0pky"></th>
-    <th class="tg-0pky">History</th>
+    <th class="tg-7btt">History</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td class="tg-0pky">IE(Win7)</td>
-    <td class="tg-0pky">%Profile%\AppData\Local\Microsoft\Windows\WebCache\WebCacheV01.dat</td>
+    <td class="tg-7btt">IE(Win7)</td>
+    <td class="tg-c3ow">%Profile%\AppData\Local\Microsoft\Windows\WebCache\WebCacheV01.dat</td>
   </tr>
   <tr>
-    <td class="tg-0pky">Chrome</td>
-    <td class="tg-0pky">%Profile%\AppData\Local\Google\Chrome\User Data\Default\History</td>
+    <td class="tg-7btt">Chrome</td>
+    <td class="tg-c3ow">%Profile%\AppData\Local\Google\Chrome\User Data\Default\History</td>
   </tr>
 </tbody>
 </table>
@@ -92,7 +94,7 @@ filescan을 통해 메모리 풀의 Datasection offset 주소를 확인한 뒤
 ![problem]({{site.url}}/images/poseidon/6.png){: class="center"}
 <figcaption class="caption"></figcaption>  
 <br>
-dumpfiles 플러그인 통해 물리 오프셋 주소를 기반으로 추출하였습니다.
+dumpfiles 플러그인으로 filescan을 통해 구한 물리 오프셋 주소를 기반으로 history 파일을 추출하였습니다.
 
 ---
 <br>
@@ -136,7 +138,7 @@ VirusTotal을 통해 Malware.exe을 검사한 결과 별다른 악성 행위는 
 ![problem]({{site.url}}/images/poseidon/12.png){: class="center"}
 <figcaption class="caption"></figcaption>  
 <br>
-C&C 서버 접속 주소를 확인하기 위해 Wireshark 네트워크 패킷 캡처를 통한 동적 분석을 진행합니다.
+C&C 서버 접속 여부를 확인하기 위해 Wireshark 네트워크 패킷 캡처를 통한 동적 분석을 진행합니다.
 
 ---
 
