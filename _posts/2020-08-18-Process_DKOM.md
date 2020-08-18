@@ -39,7 +39,7 @@ DKOM 기법은 커널 디버깅을 통해 악성 프로세스가 리스트에서
 
 ---
 <br>
-![problem]({{site.url}}/images/){: class="center"}
+![problem]({{site.url}}/images/200818/dbg.png){: class="center"}
 <figcaption class="caption"></figcaption>  
 <br>
 실습내용
